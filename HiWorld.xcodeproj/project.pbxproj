@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		5BB7F0CA279FB606009842FB /* HiWorld */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HiWorld; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BB7F0CD279FB606009842FB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5BB7F0D5279FBF2F009842FB /* header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = header.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +42,7 @@
 		5BB7F0C1279FB606009842FB = {
 			isa = PBXGroup;
 			children = (
+				5BB7F0D5279FBF2F009842FB /* header.h */,
 				5BB7F0CC279FB606009842FB /* HiWorld */,
 				5BB7F0CB279FB606009842FB /* Products */,
 			);
