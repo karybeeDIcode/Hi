@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5B486FD5279FC227005B3089 /* code.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B486FD4279FC227005B3089 /* code.cpp */; };
+		5B486FD7279FC481005B3089 /* cuda.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B486FD6279FC481005B3089 /* cuda.cpp */; };
 		5BB7F0CE279FB606009842FB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BB7F0CD279FB606009842FB /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 
 /* Begin PBXFileReference section */
 		5B486FD4279FC227005B3089 /* code.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = code.cpp; sourceTree = "<group>"; };
+		5B486FD6279FC481005B3089 /* cuda.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cuda.cpp; sourceTree = "<group>"; };
 		5BB7F0CA279FB606009842FB /* HiWorld */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HiWorld; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BB7F0CD279FB606009842FB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		5BB7F0D5279FBF2F009842FB /* header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = header.h; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 			children = (
 				5BB7F0CD279FB606009842FB /* main.cpp */,
 				5B486FD4279FC227005B3089 /* code.cpp */,
+				5B486FD6279FC481005B3089 /* cuda.cpp */,
 			);
 			path = HiWorld;
 			sourceTree = "<group>";
@@ -126,6 +129,7 @@
 			files = (
 				5B486FD5279FC227005B3089 /* code.cpp in Sources */,
 				5BB7F0CE279FB606009842FB /* main.cpp in Sources */,
+				5B486FD7279FC481005B3089 /* cuda.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
